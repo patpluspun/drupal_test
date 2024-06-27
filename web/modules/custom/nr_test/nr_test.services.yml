@@ -1,0 +1,10 @@
+services:
+  nr_test.migrate:
+    class: Drupal\nr_test\Migrate
+    arguments:
+      [
+        "@entity_type.manager",
+        "@string_translation",
+        "@http_client",
+        "@messenger",
+      ]

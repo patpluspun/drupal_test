@@ -1,0 +1,15 @@
+nr_test.migration_upload_form:
+  path: "/admin/migration-upload"
+  defaults:
+    _form: '\Drupal\nr_test\Form\MigrationUploadForm'
+    _title: "Migration Upload Form"
+  requirements:
+    _permission: "access migration upload form"
+
+nr_test.users_with_companies:
+  path: "/users-with-companies"
+  defaults:
+    _controller: '\Drupal\nr_test\Controller\UsersController::renderPage'
+    _title: "Migration results"
+  requirements:
+    _permission: "access content"

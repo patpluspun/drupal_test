@@ -1,0 +1,18 @@
+uuid: cffe732e-8370-4c65-9b64-5bb101cc8aa8
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.user
+id: node.user.title
+field_name: title
+entity_type: node
+bundle: user
+label: Username
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

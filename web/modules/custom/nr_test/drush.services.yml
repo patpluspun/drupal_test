@@ -1,0 +1,6 @@
+services:
+  nr_test.commands:
+    class: Drupal\nr_test\Commands\MigrateCommands
+    tags:
+      - { name: drush.command }
+    arguments: ["@messenger", "@nr_test.migrate"]

@@ -1,0 +1,19 @@
+uuid: 93c149ad-d975-4f37-9f08-2b946d00fd1b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ext
+    - node.type.user
+id: node.user.field_ext
+field_name: field_ext
+entity_type: node
+bundle: user
+label: Ext
+description: 'Extension for phone number, if any.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

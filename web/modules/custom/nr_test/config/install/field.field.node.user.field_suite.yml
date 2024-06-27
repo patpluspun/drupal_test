@@ -1,0 +1,19 @@
+uuid: 30fff64c-5813-4d33-b343-cf497ecd1b6a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_suite
+    - node.type.user
+id: node.user.field_suite
+field_name: field_suite
+entity_type: node
+bundle: user
+label: Suite
+description: "User's suite extension, if applicable."
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

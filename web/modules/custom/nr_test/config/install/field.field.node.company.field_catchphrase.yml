@@ -1,0 +1,19 @@
+uuid: 1094396c-a738-40f6-89ea-fd0697d77971
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_catchphrase
+    - node.type.company
+id: node.company.field_catchphrase
+field_name: field_catchphrase
+entity_type: node
+bundle: company
+label: Catchphrase
+description: 'The company catchphrase.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

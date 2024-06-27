@@ -1,0 +1,6 @@
+nr_test_migration_upload_form:
+  title: "Migration Upload Form"
+  route_name: nr_test.migration_upload_form
+  description: "A list of options to process migrations."
+  parent: entity.node.collection
+  weight: 1

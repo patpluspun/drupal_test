@@ -1,0 +1,19 @@
+uuid: 6b298085-8b94-471c-b2db-06d3fcb1f9dc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_jargon
+    - node.type.company
+id: node.company.field_jargon
+field_name: field_jargon
+entity_type: node
+bundle: company
+label: Jargon
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

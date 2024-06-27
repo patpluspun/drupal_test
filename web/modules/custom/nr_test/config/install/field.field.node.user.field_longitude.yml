@@ -1,0 +1,23 @@
+uuid: bfd3506e-adb4-4a7e-9f67-0cecdb66649c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_longitude
+    - node.type.user
+id: node.user.field_longitude
+field_name: field_longitude
+entity_type: node
+bundle: user
+label: Longitude
+description: "User's geographical longitude. Normally we'd use Geolocation module for this."
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: decimal

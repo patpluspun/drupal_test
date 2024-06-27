@@ -1,0 +1,23 @@
+uuid: c17237ef-95d2-42d9-a7bb-866f9e4a25a1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_id
+    - node.type.user
+id: node.user.field_id
+field_name: field_id
+entity_type: node
+bundle: user
+label: ID
+description: 'The user id, not to be confused with node id.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 1
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

@@ -1,0 +1,17 @@
+uuid: 257ddefd-d2db-40c5-8369-f5105b31030a
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: User
+type: user
+description: 'A user content type that is not a user entity.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

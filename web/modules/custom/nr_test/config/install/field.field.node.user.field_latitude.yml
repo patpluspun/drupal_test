@@ -1,0 +1,23 @@
+uuid: 8163145b-1c48-48a4-a1fe-48701d827ae4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_latitude
+    - node.type.user
+id: node.user.field_latitude
+field_name: field_latitude
+entity_type: node
+bundle: user
+label: Latitude
+description: "User's geographical latitude.  Normally we'd use Geolocation module for this."
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: decimal
